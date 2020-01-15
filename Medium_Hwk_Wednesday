@@ -1,0 +1,4 @@
+firstList = int([1, 3, 5])
+secondList = int([4, 8, 6])
+newList = firstList * secondList
+print(newList)

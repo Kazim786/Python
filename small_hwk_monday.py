@@ -65,6 +65,6 @@ elif(service == "bad"):
 else:
     print("Invalid entry")
 TotalAmount = float(TotalBill + tip) 
-print("The total amount is ",TotalAmount)
+print("The total amount is ",TotalAmount) #TotalAmount is not a string hence you cant concactenate
 
 
