@@ -51,16 +51,20 @@
 #     print("The count is " + str(count)) #dont forget to convert count into a string to concactenate.
 #Middle Part
 TotalBill = float(input("What is the total bill?"))
-service = input("What is the level of service?")
+service = input("What is the level of service? good, bad, or fair?")
+tip = float()
 if(service == "good"):
-     float(tip) = (TotalBill * 20%)
-if(service == "fair"):
-    float(tip) = (TotalBill * 15%)
-if(service == "bad"):
-    float(tip) == (TotalBill * 10%)
+     tip = (TotalBill * .20)
+     print("Tip is " ,tip)
+elif(service == "fair"):
+    tip = (TotalBill * .15)
+    print("Tip is " ,tip)
+elif(service == "bad"):
+    tip == (TotalBill * .10)
+    print("Tip is " ,tip)
 else:
     print("Invalid entry")
-TotalAmount = TotalBill + tip 
-print(TotalAmount)
+TotalAmount = float(TotalBill + tip) 
+print("The total amount is ",TotalAmount)
 
 
