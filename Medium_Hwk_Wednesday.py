@@ -72,11 +72,17 @@
 # print("The sum of the numbers in the list is ", sum(sumList))
 
 #2
-largestNumb = []
-amount_of_numbers = int(input("Enter how many numbers their will be in the list "))
-for i in range (amount_of_numbers):
-    number_entry = int(input("Enter a number "))
-    largestNumb.append(number_entry) 
-print("The largest number in the list is ", max(largestNumb))
-
+# largestNumb = []
+# amount_of_numbers = int(input("Enter how many numbers their will be in the list "))
+# for i in range (amount_of_numbers):
+#     number_entry = int(input("Enter a number "))
+#     largestNumb.append(number_entry) 
+# print("The largest number in the list is ", max(largestNumb))
+# 3
+# smallestNumb = []
+# quantity = int(input("How many numbers will your list have? "))
+# for i in range (quantity):
+#     entry_of_Numbers = int(input("Enter the numbers "))
+#     smallestNumb.append(entry_of_Numbers)
+# print("The smallest number of the list is ", min(smallestNumb))
 
