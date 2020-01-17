@@ -4,4 +4,4 @@ def smallest_Number(my_List):
     return min(my_List)
 
 
-smallest_Number(my_Choice)
+print(smallest_Number(my_Choice))
