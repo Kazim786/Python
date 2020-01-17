@@ -8,12 +8,22 @@
 # print(student(name_stud, sub))
 
 #2 
-def fahrenheit_conversion(celcius):
-    F = (celcius * 9/5) + 32
-    return F
-celcius_temp = 28
-print(fahrenheit_conversion(celcius_temp))
+# def fahrenheit_conversion(celcius):
+#     F = (celcius * 9/5) + 32
+#     return F
+# celcius_temp = 28
+# print(fahrenheit_conversion(celcius_temp))
 
+#4
+
+# number_entry = int(input("Enter a number "))
+
+# def is_even(any_number):
+#     if (any_number % 2 == 0 ):
+#         print("True")
+#     else:
+#         print("false")
+# print(is_even(number_entry))
 
 
 
