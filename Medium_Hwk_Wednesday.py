@@ -37,25 +37,23 @@
 # copiedList = list(set(copiedList))
 # print(copiedList)
 #5
-sentence = input("insert A, E, G, I, O, S, T ")
-leet_list = list(sentence)
-for char in sentence:
-    if (char == 'A'):
-        leet_list [char] = 4
-    elif (char == 'E'):
-       leet_list [char] = 3
-    elif (char == "G"):
-       leet_list [char] = 6
-    elif (char == 'I'):
-        leet_list [char] = 1
-    elif (char == "S"):
-        leet_list [char] = 5
-    elif (char == "T"):
-        leet_list [char] = 7
-    elif (char == "O"):
-        leet_list [char] = 0
-    sentence = "" .join(leet_list)
-    print(sentence)
+# sentence = input("insert A, E, G, I, O, S, T ")
+# for char in sentence:
+#     if (char == 'A'):
+#         print('4')
+#     elif (char == 'E'):
+#         print('3')
+#     elif (char == "G"):
+#         print('6')
+#     elif (char == 'I'):
+#         print('1')
+#     elif (char == "S"):
+#         print("5")
+#     elif (char == "T"):
+#         print("7")
+#     elif (char == "O"):
+#         print('0')
+#     print(sentence)
 # SHOULD OUT PUT LIKE THIS "1 L0V3 D16174L " < GET HELP
 #6
 #word = input("Type any word with vowels ")
