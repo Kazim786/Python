@@ -1,7 +1,7 @@
 # list_one = [7, 4, 3]
 # list_two = [9, 4, 7]
 # new_list = []
-# for index in range (len(list_one)):
+# for index in range (len(list_one)): #So for loop will run 3 times because thats the 'length' of the lists
 #     new_number = list_one[index] * list_two[index]
 #     new_list.append(new_number)
 #     print(new_number)
@@ -10,9 +10,9 @@
 #make a new number equal to the first items in each list multiplied together
 #add the new number to our new list
 #print the new list.
-
+#2
 #Matrix Addition
-# ad the 2 maticies together, i.e 2+4. 4+7, etc
+# add the 2 matricies together, i.e 2+4. 4+7, etc
 # a = [[2,4], [1,6]]
 # b = [[4,7], [2,3]]
 # new_big_list = []
@@ -27,31 +27,35 @@
 #         new_small_list.append(sum_of_values)
 #     new_big_list.append(new_small_list)
 # print(new_big_list)
-# 4 De-Dup
+#3
+
+#4 De-Dup Remove duplicates
 # myList = [1, 2, 3, 4, 9, 8, 9]
 # copiedList = []
 # copiedList = myList.copy()
 # #print(copiedList)
-# copiedList = list(dict.fromkeys(copiedList))
+# copiedList = list(set(copiedList))
 # print(copiedList)
 #5
-# sentence = input("insert A, E, G, I, O, S, T ")
-# for char in sentence:
-#     if (char == 'A'):
-#         print('4')
-#     elif (char == 'E'):
-#         print('3')
-#     elif (char == "G"):
-#         print('6')
-#     elif (char == 'I'):
-#         print('1')
-#     elif (char == "S"):
-#         print("5")
-#     elif (char == "T"):
-#         print("7")
-#     elif (char == "O"):
-#         print('0')
-#     print(sentence)
+sentence = input("insert A, E, G, I, O, S, T ")
+leet_list = list(sentence)
+for char in sentence:
+    if (char == 'A'):
+        leet_list [char] = 4
+    elif (char == 'E'):
+       leet_list [char] = 3
+    elif (char == "G"):
+       leet_list [char] = 6
+    elif (char == 'I'):
+        leet_list [char] = 1
+    elif (char == "S"):
+        leet_list [char] = 5
+    elif (char == "T"):
+        leet_list [char] = 7
+    elif (char == "O"):
+        leet_list [char] = 0
+    sentence = "" .join(leet_list)
+    print(sentence)
 # SHOULD OUT PUT LIKE THIS "1 L0V3 D16174L " < GET HELP
 #6
 #word = input("Type any word with vowels ")
@@ -86,3 +90,4 @@
 #     smallestNumb.append(entry_of_Numbers)
 # print("The smallest number of the list is ", min(smallestNumb))
 
+# 4 
