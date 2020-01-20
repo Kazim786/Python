@@ -1,3 +1,4 @@
+# 1 & 2
 total_bill = float(input("What is your total? "))
 service = input("What was the level of service? Good, fair, or bad ")
 how_many_people = float(input("How many people are there? "))
