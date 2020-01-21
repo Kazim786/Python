@@ -34,7 +34,7 @@
 # copiedList = []
 # copiedList = myList.copy()
 # #print(copiedList)
-# copiedList = list(set(copiedList))
+# copiedList = list(set(copiedList)) # Couldnt we have just done this for myList? ask Ephriam.
 # print(copiedList)
 #5
 # sentence = input("insert A, E, G, I, O, S, T ")
@@ -89,10 +89,10 @@
 # print("The smallest number of the list is ", min(smallestNumb))
 
 # 1 Medium section (redoing for practice)
-m1 = [2, 4, 5]
-m2 = [4, 12, 30]
-for i in range (len(m1)):
-    new_numb = m1(i) * m2(i)
-    newList.append(new_numb)
-    print(newList)
+# m1 = [2, 4, 5]
+# m2 = [4, 12, 30]
+# for i in range (len(m1)):
+#     new_numb = m1(i) * m2(i)
+#     newList.append(new_numb)
+#     print(newList)
 
