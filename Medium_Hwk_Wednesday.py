@@ -96,3 +96,13 @@
 #     newList.append(new_numb)
 #     print(newList)
 
+
+# 2 Matrix addition:
+
+# a = [[2,4], [1,6]]
+# b = [[4,7], [2,3]]
+
+# for o in range (len(a)):
+#     for i in range (b):
+#         sum = o + i
+#         the_new_list.append(sum)
