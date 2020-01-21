@@ -18,21 +18,24 @@
 # Medium
 
 #1 
-letter_histogram = input("Please enter a word : ")
-counts = {}
-for word in letter_histogram:
-    if word not in counts:
-        counts[word] = 1
-    else:
-        counts[word] += 1
-print(counts) 
-
-#2
 # letter_histogram = input("Please enter a word : ")
 # counts = {}
 # for word in letter_histogram:
 #     if word not in counts:
-#         counts[word] = 1 << #This is how u add a key/value to a dict. So if words not in dict. This is how u add it
+#         counts[word] = 1  #This is how u add a key/value to a dict. So if words not in dict. This is how u add it
 #     else:
-#         counts[word] += 1 << # If letter is already in Dict. It adds the count of the amount of that letters occurence
+#         counts[word] += 1  # If letter is already in Dict. It adds the count of the amount of that letters occurence
 # print(counts) 
+
+#2
+# letter_histogram = input("Please enter a word : ")
+# counts = {}
+#sentence_split = letter_histogram.split()
+# for letters in letter_histogram:
+#     if letters not in counts:
+#         counts[letters] = 1 << #This is how u add a key/value to a dict. So if words not in dict. This is how u add it
+#     else:
+#         counts[letters] += 1 << # If letter is already in Dict. It adds the count of the amount of that letters occurence
+# print(counts) 
+
+# 3 Sorting a histogram
