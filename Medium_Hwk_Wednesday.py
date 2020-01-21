@@ -88,4 +88,11 @@
 #     smallestNumb.append(entry_of_Numbers)
 # print("The smallest number of the list is ", min(smallestNumb))
 
-# 4 
+# 1 Medium section (redoing for practice)
+m1 = [2, 4, 5]
+m2 = [4, 12, 30]
+for i in range (len(m1)):
+    new_numb = m1(i) * m2(i)
+    newList.append(new_numb)
+    print(newList)
+
